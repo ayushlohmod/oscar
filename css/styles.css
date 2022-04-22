@@ -116,3 +116,40 @@ p{
 .colum-space{
     padding: 3% 2%;
 }
+
+/* cta section */
+#cta{
+    background-color: #6b5b95;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+
+
+}
+.cta-a{
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.footer-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
